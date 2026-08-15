@@ -1,0 +1,28 @@
+//Indexing of an array starts from 0, meaning the first element is stored at the 0th index, the second at 1st and so on.
+//Once an array is declared, it's size remains constant throughout the program.
+//Size of an array can be determined by the "sizeof" operator using which we can also find the number of elements in the array.
+
+//syntax of array declaration : datatype arrayName[arraySize] ;
+// example : int arr[5] ; //declares an array of 5 integers
+
+// initialising an array using curly braces{} i.e. to asssign initial values 
+// example : int arr[5] = {1, 2, 3, 4, 5} ; //initialises an array of 5 integers with the given values
+
+//partial initialisation of an array is also possible, in which case the remaining elements are initialised to 0
+// example : int arr[5] = {1, 2} ; //initialises the first two elements to 1 and 2, and the remaining three elements to 0
+
+// if size of the array is not specified, it will be determined by the number of initial values provided
+// example : int arr[] = {1, 2, 3, 4, 5} ; //initialises an array of 5 integers with the given values
+
+//initialising all elements of an array to 0
+// example : int arr[5] = {0}; . it only works for 0 
+
+//array oprerations 
+//access an array element using its index, for example arr[0] will give the first element of the array
+//array_name[index] = value ; //to assign a value to an array element at a specific index
+//traversing an array using a loop, for example using a for loop to iterate through all elements of the array
+
+//size of an array can be determined using the sizeof operator,
+// for example sizeof(arr)/sizeof(arr[0]) will give the number of elements in the array
+
+//sizeof array[0] gives the size of the first element of the array, which is useful for determining the number of elements in the array when combined with sizeof(arr)
